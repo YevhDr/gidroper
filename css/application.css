@@ -201,7 +201,7 @@ p, li {
 #fon {
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('img/web_map.jpg');
+    background-image: url('../img/web_map.jpg');
 }
 
 .indent {
