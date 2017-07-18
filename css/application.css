@@ -184,10 +184,10 @@ p, li {
 }
 
 #fon {
-    background-image: url('../img/web_map1.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-        }
+    background-image: url('../img/web_map1.jpg');
+}
 
 .indent {
     margin-top: 80%;
@@ -319,12 +319,6 @@ p, li {
     margin-bottom: 40px;
 
 }
-
-
-.vovk {
-    position: inherit;
-    }
-
 
 
 
