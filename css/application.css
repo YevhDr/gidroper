@@ -80,7 +80,11 @@ h1 {
   font-size: 3.0em;
   line-height: 1.5em;
   font-weight: bold;
-  width: 80%;
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 10%;
+
+
 
 
 }
@@ -97,20 +101,22 @@ h3 {
     color: black;
     line-height: 1.5em;
     width: 80%;
+    margin-left: 10%;
+    width: 60%;
 
 }
 
 h5{
     margin-top: 2em;
     line-height: 1.5em;
+    margin-left: 10%;
+    width: 60%;
 }
 
 p, li {
     font-size: 1.6em;
     line-height: 1.7em;
     margin-left: 5%;
-
-
 }
 
 
@@ -170,7 +176,16 @@ p, li {
 }
 
 
+@media (min-width: 760px ){
 
+    .main {
+        width: 60%;
+
+
+    }
+
+
+}
 
 
 
@@ -186,7 +201,7 @@ p, li {
 #fon {
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('../img/web_map1.jpg');
+    background-image: url('../img/web_map.jpg');
 }
 
 .indent {
@@ -313,7 +328,6 @@ p, li {
 
 .descript {
     font-size: 1.5em;
-    color:darkblue;
     text-align: right;
     font-style: italic;
     margin-bottom: 40px;
@@ -438,7 +452,7 @@ h1
   margin-top: 30px;
 }
 
-.last{
+#last{
   margin-bottom:30px;
 }
 
@@ -496,13 +510,6 @@ img {
 .read-more {
   margin-bottom: 15px; }
 
-.glyphicon-chevron-right:before {
-    content: "▶";
-}
-
-.glyphicon-chevron-left:before {
-    content: "◀";
-}
 
 .container {
   padding-right: 5px;
